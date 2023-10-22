@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54072412AD2F6F6005FF09A /* hw2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54072402AD2F6F6005FF09A /* hw2App.swift */; };
+		A54072432AD2F6F6005FF09A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54072422AD2F6F6005FF09A /* ContentView.swift */; };
+		A54072452AD2F6F9005FF09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54072442AD2F6F9005FF09A /* Assets.xcassets */; };
+		A54072482AD2F6F9005FF09A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54072472AD2F6F9005FF09A /* Preview Assets.xcassets */; };
+		A54072532AD2FEF4005FF09A /* 背景音樂.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A54072522AD2FEF4005FF09A /* 背景音樂.mp3 */; };
+		A54072552AD2FFDB005FF09A /* 海綿寶寶主題曲(中文版).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A54072542AD2FFDB005FF09A /* 海綿寶寶主題曲(中文版).mp3 */; };
+		A54072592AD3BB68005FF09A /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54072582AD3BB68005FF09A /* mainView.swift */; };
+		A540725B2AD3BB88005FF09A /* characterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540725A2AD3BB88005FF09A /* characterView.swift */; };
+		A540725D2AD3BBCC005FF09A /* pictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540725C2AD3BBCC005FF09A /* pictureView.swift */; };
+		A540725F2AD3BC24005FF09A /* knowledgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A540725E2AD3BC24005FF09A /* knowledgeView.swift */; };
+		A5B1B3642ADADAB3004EC9B7 /* SpongeBob.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1B3632ADADAB3004EC9B7 /* SpongeBob.swift */; };
+		A5B1B3662ADADF14004EC9B7 /* Patrick .swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1B3652ADADF14004EC9B7 /* Patrick .swift */; };
+		A5B1B3682ADADF64004EC9B7 /* Squidward.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1B3672ADADF64004EC9B7 /* Squidward.swift */; };
+		A5B1B36A2ADADFE0004EC9B7 /* Eugene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1B3692ADADFE0004EC9B7 /* Eugene.swift */; };
+		A5B1B36C2ADAE019004EC9B7 /* Sheldon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1B36B2ADAE019004EC9B7 /* Sheldon.swift */; };
+		A5B1B36E2ADAE04B004EC9B7 /* Sandy .swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1B36D2ADAE04B004EC9B7 /* Sandy .swift */; };
+		A5B1B3702ADBB6B4004EC9B7 /* 海綿寶寶 珍珍摔倒會地震的!.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A5B1B36F2ADBB6B3004EC9B7 /* 海綿寶寶 珍珍摔倒會地震的!.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A540723D2AD2F6F6005FF09A /* hw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54072402AD2F6F6005FF09A /* hw2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2App.swift; sourceTree = "<group>"; };
+		A54072422AD2F6F6005FF09A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A54072442AD2F6F9005FF09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54072472AD2F6F9005FF09A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A54072522AD2FEF4005FF09A /* 背景音樂.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "背景音樂.mp3"; sourceTree = "<group>"; };
+		A54072542AD2FFDB005FF09A /* 海綿寶寶主題曲(中文版).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "海綿寶寶主題曲(中文版).mp3"; sourceTree = "<group>"; };
+		A54072582AD3BB68005FF09A /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		A540725A2AD3BB88005FF09A /* characterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterView.swift; sourceTree = "<group>"; };
+		A540725C2AD3BBCC005FF09A /* pictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pictureView.swift; sourceTree = "<group>"; };
+		A540725E2AD3BC24005FF09A /* knowledgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knowledgeView.swift; sourceTree = "<group>"; };
+		A5B089F02ADF883E00C9EC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A5B1B3632ADADAB3004EC9B7 /* SpongeBob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpongeBob.swift; sourceTree = "<group>"; };
+		A5B1B3652ADADF14004EC9B7 /* Patrick .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Patrick .swift"; sourceTree = "<group>"; };
+		A5B1B3672ADADF64004EC9B7 /* Squidward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squidward.swift; sourceTree = "<group>"; };
+		A5B1B3692ADADFE0004EC9B7 /* Eugene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eugene.swift; sourceTree = "<group>"; };
+		A5B1B36B2ADAE019004EC9B7 /* Sheldon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheldon.swift; sourceTree = "<group>"; };
+		A5B1B36D2ADAE04B004EC9B7 /* Sandy .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sandy .swift"; sourceTree = "<group>"; };
+		A5B1B36F2ADBB6B3004EC9B7 /* 海綿寶寶 珍珍摔倒會地震的!.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "海綿寶寶 珍珍摔倒會地震的!.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A540723A2AD2F6F6005FF09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54072342AD2F6F6005FF09A = {
+			isa = PBXGroup;
+			children = (
+				A540723F2AD2F6F6005FF09A /* hw2 */,
+				A540723E2AD2F6F6005FF09A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A540723E2AD2F6F6005FF09A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A540723D2AD2F6F6005FF09A /* hw2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A540723F2AD2F6F6005FF09A /* hw2 */ = {
+			isa = PBXGroup;
+			children = (
+				A5B089F02ADF883E00C9EC3D /* Info.plist */,
+				A54072542AD2FFDB005FF09A /* 海綿寶寶主題曲(中文版).mp3 */,
+				A54072522AD2FEF4005FF09A /* 背景音樂.mp3 */,
+				A5B1B36F2ADBB6B3004EC9B7 /* 海綿寶寶 珍珍摔倒會地震的!.mp4 */,
+				A54072402AD2F6F6005FF09A /* hw2App.swift */,
+				A54072422AD2F6F6005FF09A /* ContentView.swift */,
+				A54072582AD3BB68005FF09A /* mainView.swift */,
+				A540725A2AD3BB88005FF09A /* characterView.swift */,
+				A5B1B3632ADADAB3004EC9B7 /* SpongeBob.swift */,
+				A5B1B3652ADADF14004EC9B7 /* Patrick .swift */,
+				A5B1B3672ADADF64004EC9B7 /* Squidward.swift */,
+				A5B1B3692ADADFE0004EC9B7 /* Eugene.swift */,
+				A5B1B36B2ADAE019004EC9B7 /* Sheldon.swift */,
+				A5B1B36D2ADAE04B004EC9B7 /* Sandy .swift */,
+				A540725C2AD3BBCC005FF09A /* pictureView.swift */,
+				A540725E2AD3BC24005FF09A /* knowledgeView.swift */,
+				A54072442AD2F6F9005FF09A /* Assets.xcassets */,
+				A54072462AD2F6F9005FF09A /* Preview Content */,
+			);
+			path = hw2;
+			sourceTree = "<group>";
+		};
+		A54072462AD2F6F9005FF09A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A54072472AD2F6F9005FF09A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A540723C2AD2F6F6005FF09A /* hw2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A540724B2AD2F6F9005FF09A /* Build configuration list for PBXNativeTarget "hw2" */;
+			buildPhases = (
+				A54072392AD2F6F6005FF09A /* Sources */,
+				A540723A2AD2F6F6005FF09A /* Frameworks */,
+				A540723B2AD2F6F6005FF09A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hw2;
+			productName = hw2;
+			productReference = A540723D2AD2F6F6005FF09A /* hw2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54072352AD2F6F6005FF09A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A540723C2AD2F6F6005FF09A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A54072382AD2F6F6005FF09A /* Build configuration list for PBXProject "hw2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A54072342AD2F6F6005FF09A;
+			productRefGroup = A540723E2AD2F6F6005FF09A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A540723C2AD2F6F6005FF09A /* hw2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A540723B2AD2F6F6005FF09A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54072482AD2F6F9005FF09A /* Preview Assets.xcassets in Resources */,
+				A54072452AD2F6F9005FF09A /* Assets.xcassets in Resources */,
+				A5B1B3702ADBB6B4004EC9B7 /* 海綿寶寶 珍珍摔倒會地震的!.mp4 in Resources */,
+				A54072552AD2FFDB005FF09A /* 海綿寶寶主題曲(中文版).mp3 in Resources */,
+				A54072532AD2FEF4005FF09A /* 背景音樂.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54072392AD2F6F6005FF09A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A540725D2AD3BBCC005FF09A /* pictureView.swift in Sources */,
+				A5B1B36C2ADAE019004EC9B7 /* Sheldon.swift in Sources */,
+				A5B1B3662ADADF14004EC9B7 /* Patrick .swift in Sources */,
+				A5B1B3642ADADAB3004EC9B7 /* SpongeBob.swift in Sources */,
+				A54072592AD3BB68005FF09A /* mainView.swift in Sources */,
+				A54072432AD2F6F6005FF09A /* ContentView.swift in Sources */,
+				A540725F2AD3BC24005FF09A /* knowledgeView.swift in Sources */,
+				A5B1B36A2ADADFE0004EC9B7 /* Eugene.swift in Sources */,
+				A5B1B3682ADADF64004EC9B7 /* Squidward.swift in Sources */,
+				A540725B2AD3BB88005FF09A /* characterView.swift in Sources */,
+				A54072412AD2F6F6005FF09A /* hw2App.swift in Sources */,
+				A5B1B36E2ADAE04B004EC9B7 /* Sandy .swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A54072492AD2F6F9005FF09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A540724A2AD2F6F9005FF09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A540724C2AD2F6F9005FF09A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hw2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hw2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "海綿寶寶電子書";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hsu-Wen-Chi.hw2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A540724D2AD2F6F9005FF09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hw2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hw2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "海綿寶寶電子書";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hsu-Wen-Chi.hw2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54072382AD2F6F6005FF09A /* Build configuration list for PBXProject "hw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54072492AD2F6F9005FF09A /* Debug */,
+				A540724A2AD2F6F9005FF09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A540724B2AD2F6F9005FF09A /* Build configuration list for PBXNativeTarget "hw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A540724C2AD2F6F9005FF09A /* Debug */,
+				A540724D2AD2F6F9005FF09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54072352AD2F6F6005FF09A /* Project object */;
+}
